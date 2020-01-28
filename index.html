@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="file.js"></script>
+    <script src="pile.js"></script>
+    <link rel="stylesheet" href="stylee.css">
+
+</head>
+
+<body>
+<div class="pile">
+    <h1>Type from 1 to 4 :</h1>
+
+    <input type="text" name="value" id="value" placeholder="Add Value">
+
+    <button onclick="addlast()">Push</button>
+    <button onclick="Delete()">Pop</button>
+    <button id="next" onclick="nextVal()">Next</button>
+    <button id="back" onclick="backVal()">Back</button>
+
+
+
+    <h1>Music :</h1>
+    <div id="resu"><source type="audio/mpeg" src="horse.mp3" ></div>
+
+</div>
+
+<div class="file">
+    <h1>Type from 1 to 4 :</h1>
+
+    <input type="text" name="data" id="data" placeholder="Add Value">
+
+    <button onclick="queue()">Queue</button>
+    <button onclick="dequeue()">Dequeue</button>
+    <button id="next2" onclick="nextData()">Next</button>
+    <button id="back2" onclick="backData()">Back</button>
+
+
+
+    <h1>Music :</h1>
+    <div id="resu2"></div>
+
+</div>
+
+</body>
+
+</html>
